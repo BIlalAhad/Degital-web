@@ -52,7 +52,7 @@ export default function Header() {
           <button className='bg-white mt-5 sm:mt-0 font-bold text-center p-3 rounded-md mx-4 w-[150px] border-2 border-blue-700 hover:bg-blue-200' onClick={display}>
             Categories     </button>
           <section id='popup' className=' max-w-full text-center top-20 mx-auto hidden bg-white  absolute z-10 p-8 left-0 right-0 shadow-2xl'>
-           <section className='grid grid-flow-col grid-cols-2 sm:grid-cols-5 gap-8'>
+           <section className='grid sm:grid-flow-col sm:grid-cols-5 gap-8'>
            <div>
            <img className='sm:w-[190px] w-full rounded-md border-r-4 border-blue-700' src={shoes} alt=''/>
             <h2 className='pt-1 font-serif font-bold'>Shose</h2>
