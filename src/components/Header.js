@@ -48,7 +48,7 @@ export default function Header() {
        </section>
        <section className="bg-blue-700 max-w-6xl mx-auto ">
 
-        <nav id="navitems" className="sm:text-center items-center sm:flex justify-between relative">
+        <nav id="navitems" className="sm:text-center hidden items-center sm:flex justify-between relative">
           <button className='bg-white mt-5 sm:mt-0 font-bold text-center p-3 rounded-md mx-4 w-[150px] border-2 border-blue-700 hover:bg-blue-200' onClick={display}>
             Categories     </button>
           <section id='popup' className=' max-w-full text-center top-20 mx-auto hidden bg-white  absolute z-10 p-8 left-0 right-0 shadow-2xl'>
