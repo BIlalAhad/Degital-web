@@ -6,7 +6,7 @@ import {SlSocialPintarest,SlSocialLinkedin} from 'react-icons/sl'
 export default function Footer() {
     return (
         <>
-        <section className="bg-gradient-to-r from-blue-600 to-blue-700 -mt-[550px]">
+        <section className="bg-gradient-to-r from-blue-600 to-blue-700 -mt-[565px] sm:-mt-[550px]">
         <section className="  mt-[605px]  sm:text-start sm:flex justify-between  px-5  sm:pt-16">
             <div className="">
                 <img src={logo} alt="img" />

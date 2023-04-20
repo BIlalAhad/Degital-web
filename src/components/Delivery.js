@@ -7,7 +7,7 @@ import {BsFillCheckCircleFill} from 'react-icons/bs';
 export default function Delivery() {
   return (
     <>
-    <section className='p-10 mt-16 bg-blue-200 grid grid-flow-cols grid-cols-4  mx-auto text-center'>
+    <section className='p-10 mt:10 sm:mt-16 bg-blue-200 grid grid-flow-cols grid-cols-4  mx-auto text-center'>
         <div className=' text-blue-700  '>
             <div className='text-5xl sm:text-7xl '>
             <MdAccessTimeFilled/>
