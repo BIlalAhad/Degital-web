@@ -50,7 +50,7 @@ export default function Mainpagedealoftheday() {
 
        </div>
      </section>
-     <section className='sm:hidden mt-10'>
+     <section className='sm:hidden mt:6 sm:mt-10'>
         <div className='flex justify-between mb-5 px-3'>
             <h2 className='text-xl border-b-2 border-blue-800 font-serif'>Deal Of The Day</h2>
             <button className='text-blue-700'>view all</button>
