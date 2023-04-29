@@ -13,6 +13,7 @@ import Cartpage from './Cartpage';
 
 
 const user=true;
+
 export default function Header() {
     function hamburger(){
        var show=document.getElementById("navitems");
@@ -101,11 +102,10 @@ export default function Header() {
             <li className=" hover:cursor-pointer hover:underline border-2 p-1 sm:p-0 border-white sm:border-0"><Link to="/allbrands">All Brands</Link></li>
             <li className=" hover:cursor-pointer hover:underline border-2 p-1 sm:p-0 border-white sm:border-0"><Link to="/discountproducts">Discount products</Link></li>
             <li className=" hover:cursor-pointer hover:underline border-2 p-1 sm:p-0 border-white sm:border-0"><Link to="/allsellers">All Sellers</Link></li>
-            <select className="bg-blue-700  border-2 p-1 sm:p-0 border-white sm:border-0" value="select">
-                <option className="">Account</option>
-                <option className="">Login</option>
-                <option className="">Logout</option>
-            </select>
+             
+                <li className=" hover:cursor-pointer hover:underline border-2 p-1 sm:p-0 border-white sm:border-0"><Link to="/login" id='account'>Login</Link></li>
+            
+            
           </ul>
         </nav>
 
