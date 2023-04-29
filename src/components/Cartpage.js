@@ -24,7 +24,7 @@ export default function Cartpage() {
         </section>
         <section className='py-7 '>
           <p className='pb-4'>Shop name: Mart Morning</p>
-          <table className=' text-center w-full '>
+          <table className=' text-center w-full text-sm '>
             <thead className=' text-blue-700'>
               <tr className='h-[50px] border-b-2  bg-gray-100 text-sm font-bold font-serif '>
                 <td className=''>
