@@ -10,6 +10,7 @@ import Allsellers from './components/Allsellers';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from './components/Header';
 import Footer from './components/Footer';
+import Login from './components/Login';
 
 
 
@@ -27,6 +28,7 @@ function App() {
         <Route path="discountproducts" element={<Discountproducts />} />
         <Route path="allsellers" element={<Allsellers/>} />
         <Route exact path="Cartpage" element={<Cartpage/>} />
+        <Route exact path="login" element={<Login/>} />
     </Routes>
     <Footer/>
   </BrowserRouter>

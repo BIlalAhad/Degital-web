@@ -12,14 +12,14 @@ export default function Bestsellingandtoprated() {
     <>
     
     <section className='sm:grid grid-flow-cols mt-10 grid-cols-2 gap-10 hidden '>
-        <div className='grid grid-flow-cols gap-5 pt-16  sm:grid-cols-3 bg-[#F3F4F6] relative shadow-2xl shadow-blue-700 p-8'>
+        <div className='grid grid-flow-cols gap-5 pt-16  sm:grid-cols-3 bg-[#F3F4F6] relative shadow p-8'>
             <Sellingcard heading={'Exclusive & Fashionable'} off={'9% off'} price={'1000pkr'} img={lepstick} />
             <Sellingcard heading={'Exclusive & Fashionable'} off={'9% off'} price={'1000pkr'} img={bag1} />
             <Sellingcard heading={'Exclusive & Fashionable'} off={'9% off'} price={'1000pkr'} img={shoes1} />
             <h2 className='absolute py-2 px-3 bg-blue-400 text-white top-0 left-0'>Best Selling</h2>
             <button className='absolute right-2 text-blue-700 top-2'>View all</button>
         </div>
-        <div className='grid grid-flow-cols gap-5 pt-16  sm:grid-cols-3 shadow bg-[#F3F4F6] shadow-2xl shadow-blue-700 p-8 relative'>
+        <div className='grid grid-flow-cols gap-5 pt-16  sm:grid-cols-3 shadow bg-[#F3F4F6] shadow p-8 relative'>
             <Sellingcard heading={'Exclusive & Fashionable'} off={'9% off'} price={'1000pkr'} img={bag1} />
             <Sellingcard heading={'Exclusive & Fashionable'} off={'9% off'} price={'1000pkr'} img={lepstick} />
             <Sellingcard heading={'Exclusive & Fashionable'} off={'9% off'} price={'1000pkr'} img={shoes1} />

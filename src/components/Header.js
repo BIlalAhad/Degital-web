@@ -36,7 +36,7 @@ export default function Header() {
             <h1 className="text-white text-3xl bg-blue-700 p-2 border-y-3 rounded-r-lg border-white"><BiSearchAlt/></h1>
           </div>
           <div className="flex gap-3  items-center">
-            <h1 className="text-2xl text-blue-700 p-2 rounded-full bg-gray-200"><BsFillPersonFill/></h1>
+            <h1 className="text-2xl text-blue-700 p-2 rounded-full bg-gray-200"><Link to='/login' ><BsFillPersonFill/></Link></h1>
             <h1 className="text-2xl text-blue-700 p-2 rounded-full bg-gray-200"><Link to='/Cartpage' ><BsCartPlusFill/></Link></h1>
             <button onClick={hamburger}><ul className="space-y-1 shadow-lg hover:brightness-50 p-2 rounded-md sm:hidden">
                 <li className="w-7 h-1 rounded-full bg-blue-700"></li>

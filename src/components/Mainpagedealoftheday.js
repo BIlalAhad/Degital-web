@@ -11,7 +11,7 @@ import {Carousel} from 'react-responsive-carousel'
 export default function Mainpagedealoftheday() {
   return (
    <>
-    <section className='sm:flex gap-3 items-center  bg-white p-3 shadow-2xl shadow-blue-700 hidden '>
+    <section className='sm:flex gap-3 items-center  bg-white p-3 shadow  hidden '>
         <div className=' bg-blue-700 h-full pt-10 pb-10 px-7 text-white'>
             <h2 className='text-xl ml-1 font-serif'>Deal of the day</h2>
             <div className='p-2 '>
