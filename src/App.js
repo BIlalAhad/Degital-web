@@ -11,6 +11,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Login from './components/Login';
+import Signup from './components/Signup';
 
 
 
@@ -29,6 +30,7 @@ function App() {
         <Route path="allsellers" element={<Allsellers/>} />
         <Route exact path="Cartpage" element={<Cartpage/>} />
         <Route exact path="login" element={<Login/>} />
+        <Route exact path="signup" element={<Signup/>} />
     </Routes>
     <Footer/>
   </BrowserRouter>

@@ -104,6 +104,7 @@ export default function Header() {
             <li className=" hover:cursor-pointer hover:underline border-2 p-1 sm:p-0 border-white sm:border-0"><Link to="/allsellers">All Sellers</Link></li>
              
                 <li className=" hover:cursor-pointer hover:underline border-2 p-1 sm:p-0 border-white sm:border-0"><Link to="/login" id='account'>Login</Link></li>
+                <li className=" hover:cursor-pointer hover:underline border-2 p-1 sm:p-0 border-white sm:border-0"><Link to="/signup" id='account'>Sign Up</Link></li>
             
             
           </ul>
