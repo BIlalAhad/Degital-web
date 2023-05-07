@@ -12,6 +12,7 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import Login from './components/Login';
 import Signup from './components/Signup';
+import Account from './components/Account';
 
 
 
@@ -31,6 +32,7 @@ function App() {
         <Route exact path="Cartpage" element={<Cartpage/>} />
         <Route exact path="login" element={<Login/>} />
         <Route exact path="signup" element={<Signup/>} />
+        <Route exact path="account" element={<Account/>} />
     </Routes>
     <Footer/>
   </BrowserRouter>
